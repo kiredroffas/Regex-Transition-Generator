@@ -1,5 +1,6 @@
 ﻿Erik Safford
 Regular Expression to Finite Automata
+CS 317
 October 2018
 
 This program implements a regular expression transition generator using Java. The engine creates a Nondeterministic Finite
