@@ -12,7 +12,7 @@ public class Main {
 
   public static void main(String[] args) throws FileNotFoundException {
 
-    File file = new File("C:\\Users\\kired\\IdeaProjects\\Regex-Transition-Generator\\input.txt"); //Change this to your regex filepath
+    File file = new File("/home/erik/Desktop/Regex-Transition-Generator/input.txt"); //Change this to your regex filepath
     Scanner sc = new Scanner(file);
     NFA stack[] = new NFA[20]; // global NFA stack
     NFA newNFA; // global NFA variable

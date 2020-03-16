@@ -1,7 +1,4 @@
-﻿Erik Safford
-Regular Expression to Finite Automata
-CS 317
-October 2018
+# Regular Expression to Finite Automata
 
 This program implements a regular expression transition generator using Java. The engine creates a Nondeterministic Finite
 Automata (NFA) from user supplied Regular Expressions in postfixed notation. Regular Expressions are read in from
@@ -27,10 +24,10 @@ NFA stack operations are based on these Rules:
   a ε-transition from this state to the start state of FA1. Make a ε-transition from the final state of F1 to the new
   start state s. The final states of FA1 are no longer final and s is the final state of FA2.
 
-To build on the WSU lab machines:
-  Import all files into IntelliJ IDEA (as a Java Project)
+To build:
+  Import all files into IntelliJ IDEA/VSCode (as a Java Project)
   Make sure correct filepath to input.txt (or other .txt file containing regex) is given to file scanner in Main.java
-  Run Main (shortcut shift+F10)
+  Run Main
   List of NFA Transitions should print for each regex read in from input.txt
 
 Contained Files:
@@ -39,3 +36,10 @@ Contained Files:
   Main.java - Main class containing the majority of the logic used in the program
   NFA.java - NFA object used by Main to represent an NFA
   Transition.java - Transition object used by Main and NFA to represent a transition from one state to another
+
+# Screenshots
+![Alt text](/screenshots/output1.png?raw=true "Screenshot 1")
+![Alt text](/screenshots/output2.png?raw=true "Screenshot 2")
+![Alt text](/screenshots/output3.png?raw=true "Screenshot 3")
+![Alt text](/screenshots/output4.png?raw=true "Screenshot 4")
+![Alt text](/screenshots/output5.png?raw=true "Screenshot 5")
