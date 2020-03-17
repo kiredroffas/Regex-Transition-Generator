@@ -30,9 +30,10 @@ Run Main.
 
 List of NFA Transitions should print for each regex read in from input.txt.
 
+
 Contained Files:
 
-README.txt - Provides information about input & output of the program
+README.md - Provides information about input & output of the program
 
 input.txt - Text file containing sample Regular Expressions from the assignment (one per line, 12 total)
 
