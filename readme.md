@@ -21,17 +21,26 @@ Rule 3: Given FA1 that accepts regular expression r1 and FA2 that accepts regula
 Rule 4: Given FA1 that accepts regular expression r then make a FA2 that accepts r*. Add a new start state s and make a ε-transition from this state to the start state of FA1. Make a ε-transition from the final state of F1 to the new start state s. The final states of FA1 are no longer final and s is the final state of FA2.
 
 To build:
-  Import all files into IntelliJ IDEA/VSCode (as a Java Project)
-  Make sure correct filepath to input.txt (or other .txt file containing regex) is given to file scanner in Main.java
-  Run Main
-  List of NFA Transitions should print for each regex read in from input.txt
+
+Import all files into IntelliJ IDEA/VSCode (as a Java Project).
+
+Make sure correct filepath to input.txt (or other .txt file containing regex) is given to file scanner in Main.java.
+
+Run Main.
+
+List of NFA Transitions should print for each regex read in from input.txt.
 
 Contained Files:
-  README.txt - Provides information about input & output of the program
-  input.txt - Text file containing sample Regular Expressions from the assignment (one per line, 12 total)
-  Main.java - Main class containing the majority of the logic used in the program
-  NFA.java - NFA object used by Main to represent an NFA
-  Transition.java - Transition object used by Main and NFA to represent a transition from one state to another
+
+README.txt - Provides information about input & output of the program
+
+input.txt - Text file containing sample Regular Expressions from the assignment (one per line, 12 total)
+
+Main.java - Main class containing the majority of the logic used in the program
+
+NFA.java - NFA object used by Main to represent an NFA
+
+Transition.java - Transition object used by Main and NFA to represent a transition from one state to another
 
 # Screenshots
 ![Alt text](/screenshots/input.png?raw=true "Screenshot 1")
